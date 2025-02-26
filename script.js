@@ -2,10 +2,10 @@ function firstChar(text) {
   // your code here
 	let firstcharacter=text.trim();
 	if(firstcharacter!==" "){
-		return firstcharacter[0];
+		console.log(firstcharacter[0]);
 	}
 	else{
-		return 0;
+		console.log(0);
 	}
 }
 
